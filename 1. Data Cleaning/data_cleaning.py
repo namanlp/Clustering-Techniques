@@ -21,4 +21,4 @@ dataset.drop(['length'], axis=1, inplace=True)
 print(dataset.describe())
 
 # Save it to CSV
-dataset.to_csv("music_data_source_cleaned.csv", index=False)
+dataset.to_csv("../music_data_source_cleaned.csv", index=False)
